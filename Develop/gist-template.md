@@ -4,7 +4,7 @@ Regex or Regular expressions, are tools for pattern matching in strings. In this
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+The regex `/^#?([a-f0-9]{6}|[a-f0-9]{3})$/` checks if a string is a valid hex color code. It allows an optional `#` at the beginning, followed by either six characters or three depending on format type. This tutorial will break down the regex and explain each part's role in the overall pattern. 
 
 ## Table of Contents
 

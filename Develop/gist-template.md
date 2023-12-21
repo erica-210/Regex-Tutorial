@@ -12,13 +12,9 @@ The regex `/^#?([a-f0-9]{6}|[a-f0-9]{3})$/` checks if a string is a valid hex co
 - [Quantifiers](#quantifiers)
 - [OR Operator](#or-operator)
 - [Character Classes](#character-classes)
-- [Flags](#flags)
 - [Grouping and Capturing](#grouping-and-capturing)
 - [Bracket Expressions](#bracket-expressions)
 - [Greedy and Lazy Match](#greedy-and-lazy-match)
-- [Boundaries](#boundaries)
-- [Back-references](#back-references)
-- [Look-ahead and Look-behind](#look-ahead-and-look-behind)
 
 ## Regex Components
 
@@ -38,8 +34,6 @@ An or operator `|` literally means this or that. So for `/^#?([a-f0-9]{6}|[a-f0-
 
 Character classes are a set of characters enclosed within square brackets `[]`. `[a-f0-9]` allows any lowercase letter 'a' through 'f' or any digit within the pattern. 
 
-### Flags
-
 ### Grouping and Capturing
 
 In regex, grouping and capturing are used to extract information from text.  In this regex, parentheses `()` are a group expression. They group the full and short hex color code formats together, allowing the OR operator to apply to the entire group.
@@ -51,12 +45,6 @@ Bracket expressions in regex are a list of characters and/or character classes e
 ### Greedy and Lazy Match
 
 'Greedy' means match longest possible string while 'Lazy' means match shortest possible string. In regex, greedy matches are the default behavior, while lazy matches are also known as non-greedy matching. In a hex value pattern we use greedy matching meaning we use as many characters as possible withing the length limit we are given for a valid color code. 
-
-### Boundaries
-
-### Back-references
-
-### Look-ahead and Look-behind
 
 ## Author
 

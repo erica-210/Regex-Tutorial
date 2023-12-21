@@ -1,6 +1,6 @@
-# Title (replace with your title)
+# Hex Value Regex Tutorial
 
-Introductory paragraph (replace this with your text)
+Regex or Regular expressions, are tools for pattern matching in strings. In this tutorial we will explore the pattern made up to represent hex value code which is a hexidecimal representation of a color. 
 
 ## Summary
 
